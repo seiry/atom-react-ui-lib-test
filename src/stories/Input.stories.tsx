@@ -1,6 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
 import { Combination } from '../Input';
-import { DevTools } from 'jotai-devtools';
 
 export default {
   title: 'Input',
@@ -10,7 +9,7 @@ export default {
 
 const Template: StoryFn<typeof Combination> = (args) => (
   <>
-    <DevTools />
+    {/* <DevTools /> */}
     <Combination {...args} />
   </>
 );
