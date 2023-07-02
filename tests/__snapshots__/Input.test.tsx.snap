@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Combination renders correctly 1`] = `
 [
   <h1>
     I'm groot
@@ -11,6 +11,22 @@ exports[`renders correctly 1`] = `
   />,
   <button>
     Click me 
+  </button>,
+]
+`;
+
+exports[`Combination组件 输入框和按钮能够正常交互 1`] = `
+[
+  <h1>
+    测试文本
+  </h1>,
+  <input
+    onChange={[Function]}
+    type="text"
+  />,
+  <button>
+    Click me 
+    输入测试
   </button>,
 ]
 `;

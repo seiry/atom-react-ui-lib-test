@@ -25,10 +25,6 @@ interface CombinationProps {
 export const Combination: FC<CombinationProps> = (props) => {
   const { defaultText } = props;
 
-  useEffect(() => {
-    return () => {};
-  }, []);
-
   return (
     <>
       <h1>{defaultText}</h1>
