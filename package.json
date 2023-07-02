@@ -31,7 +31,7 @@
     ],
     "treeshake": true,
     "sourcemap": "inline",
-    "minify": true,
+    "minify": false,
     "clean": true,
     "dts": true,
     "splitting": false,
