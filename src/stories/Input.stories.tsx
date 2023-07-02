@@ -9,7 +9,6 @@ export default {
 
 const Template: StoryFn<typeof Combination> = (args) => (
   <>
-    {/* <DevTools /> */}
     <Combination {...args} />
   </>
 );
