@@ -12,5 +12,8 @@
     "@babel/preset-typescript",
     "@babel/preset-react"
   ],
-  "plugins": ["jotai/babel/plugin-react-refresh"]
+  "plugins": [
+    "jotai/babel/plugin-react-refresh",
+    "jotai/babel/plugin-debug-label"
+  ]
 }
